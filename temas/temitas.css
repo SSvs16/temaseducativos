@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fffaf0;
+  color: #4a2f22;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #f9e0c7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #803d3b;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #b55639;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  background: #fff3e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #7a5c4d;
+}
+
+.formulario-contacto,
+.formulario-registro {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff0e6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #d4a373;
+  border-radius: 8px;
+  background-color: #fff8f1;
+  color: #4a2f22;
+}
+
+button {
+  padding: 10px;
+  background-color: #e07a5f;
+  color: #fffaf0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #c75a41;
+}
+
+.galeria {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 12px;
+}
+
+.temas section {
+  margin-bottom: 20px;
+  background-color: #fdecd2;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tema-imagen {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.bienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
